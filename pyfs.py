@@ -1,3 +1,5 @@
+#GNU 3 pyFs
+
 import numpy as np
 fs = [];
 
