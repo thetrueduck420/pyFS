@@ -31,7 +31,4 @@ def delFile(filename):
     i = 0;
     
 
-addFile("test", "test1");
-print(readFs("test"));
-delFile("test");
 
