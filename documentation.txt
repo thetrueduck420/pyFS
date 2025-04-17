@@ -1,0 +1,34 @@
+Helloooo, Andrei here
+im gonna show you how to use pythonFs (pyFs/pfs)
+
+lesson 1!
+creating a file :D
+    file creation works by first adding a file name to the "fs" array
+    then, it also adds the contents of the file
+    this is done using numpy
+
+    now, onto actually adding the file
+    you can do this by first importing pyfs using:
+    import pyfs as pfs
+
+    then, you can add a file using the addFile function:
+    pfs.addFile(filename, file contents)
+
+lesson 2!
+reading a file >:D
+    reading a file works using a while loop
+    the while loop checks every element inside of the "fs" array
+    when the name of the file is found, it returns the next piece of data in the array
+
+    you can read a file using this:
+    var = pfs.readFile(filename)
+
+lesson 3!
+deleting a file D:
+    deleting a file works simillarly to reading it
+    a while loop checks the array, finds a name, and deletes the name along with the next piece of data
+
+    you can delete a file using this:
+    pfs.delFile(filename);
+
+dependencies needed are: numpy, python
