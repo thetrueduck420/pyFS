@@ -31,6 +31,8 @@ def delFile(filename):
     fs[i] = NULL;
     fs[i + 1] = NULL;
     i = 0;
+
+    
     
 
 
