@@ -20,9 +20,9 @@ def readFile(filename):
     while (fs[i] != filename):
         i = i + 1;
 
-    i = i + 1;
-    return fs[i];
+    newi = i + 1;
     i = 0;
+    return fs[newi];
 
 def delFile(filename):
     global i;
